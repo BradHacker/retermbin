@@ -9,3 +9,13 @@ Uses Go coroutines to run multiple concurrent requests at once for lightning fas
 Configure the amount of concurrent workers you want running by modifying the `MAX_CONCURRENT_WORKERS` value ⛏
 
 Have fun!!!
+
+## Usage
+
+```
+retermbin [max_workers] (output_file)
+
+# OR
+
+go run main.go [max_workers] (output_file)
+```
